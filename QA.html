@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--分頁顯示的名稱  A-4 -->
+<title>Q and A</title>
+		
+<!--  引入自己寫的CSS  A-2-->
+<link href="style.css" rel="stylesheet" type="text/css">
+	
+<!--ctrl+/ 打註解 : 這4個link 是給 bootstrap用的 B-2 -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<body>
+		
+<section id="bar">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="navbar-nav mr-auto">
+						<!--class中的 avtive 代表被選擇中，所以在index.html中，active效果要放在"首頁"這個字上，在intro.html中，active效果要放在"自我介紹"這個字上-->
+					<a class="nav-item nav-link " href="index.html"> 首頁 <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="intro.html">LOL英雄</a>
+					<a class="nav-item nav-link  active" href="QA.html">英雄背景故事</a> 
+					<a class="nav-item nav-link" href="contactus.html">聯絡我們</a> 
+						
+					</div>
+	
+			</div>
+			
+		</nav>
+
+</section>
+	
+	
+<section id="QAsecond">
+<div class="container">
+	<div class="row">
+		<div class="col-8 offset-2">
+<div class="accordion" id="accordionExample">
+<!--第一張卡片-->
+  <div class="card">
+      <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          亞菲利歐
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body bodybg">
+       溶於月影的神秘身姿、殺器盡出的劍拔弩張，亞菲利歐用致命的沉默弒殺了所有信仰之敵 ─ 他所熟悉的語言只有精準無比的射擊與各種火力強大的槍火。雖然他飲下了令他失聲的毒藥，但他也因此得到了他的姊妹亞盧妮的引導。從亞盧妮所身處的遙遠神廟中，她將各種以月之石精心鍛造的武器送到亞菲利歐的手中。只要空中的明月依然皎潔，亞菲利歐就永不孤獨。
+      </div>
+    </div>
+  </div>
+  
+  <!--第二張卡片-->
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          科加斯
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body bodybg2">
+        科加斯在刺眼陽光的照耀下首次出現在符文大地之時，就已經是以受到純粹飢餓所驅使的野獸樣貌示人。科加斯體內複雜的生理構造可以將吸收進來的物質轉化成身體的一部分，不僅大幅提升了肌肉的密度和質量，還使得牠的外殼如鑽石般堅硬。當牠的身體大到無法順利產下虛空蟲卵的時候，牠會將體內多餘的物質以尖銳脊刺的形式吐出，把獵物串在一起，留著之後慢慢享用。
+      </div>
+    </div>
+  </div>
+  
+   <!--第三張卡片-->
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          妮可
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        來自失落已久的梵斯塔雅部落，妮可可以透過借用他人的外表來融入任何人群，甚至吸收他們情緒上的某些東西，瞬間分辨出是敵是友。沒有人能確定妮可可能會在哪 － 又或是妮可可能是 － 誰，但那些打算傷害她的人將很快地看到她所顯露出的本色，並感受到那股貫注了原始精神魔法的全部力量釋放在他們身上。
+      </div>
+    </div>
+   </div>
+	
+<!--	第四張卡片-->
+	<div class="card">
+      <div class="card-header" id="heading4">
+      <h2 class="mb-0">
+        <button class="btn" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+          阿祈爾
+        </button>
+      </h2>
+    </div>
+<!--     第五張卡片-->
+    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+      <div class="card-body">
+		  在好幾個世紀以前，阿祈爾是蘇瑞瑪的帝王，站在權力的最頂點。然而他的驕傲使他在稱霸之時遭到背叛並殺害。而數千年後的今日，他轉生成為一名至高戰士，擁有著超凡的力量。而他被沙塵掩埋的城市也再次從土石中崛起，阿祈爾將帶領蘇瑞瑪重返往日榮光。
+        <img src="../../../Desktop/Azir_0.jpg">
+      </div>
+    </div>
+  </div>
+	 <div class="card">
+      <div class="card-header" id="heading5">
+      <h2 class="mb-0">
+        <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          寇格魔
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapse5" class="collapse show" aria-labelledby="heading5" data-parent="#accordionExample">
+      <div class="card-body bodybg">
+       在伊卡西亞的虛無深處，像寇格魔這種有著血盆大口的腐臭生物誕生了。探索慾望驅使他吞遍了所見之物，雖然天性並不邪惡，但這般無知的天真反而招來更致命的危險 － 因為無止境的瘋狂進食並非想要填飽肚子，而單單只是為了滿足他深不見底的好奇心。
+      </div>
+    </div>
+  </div>
+  
+	
+   
+	
+
+
+  
+   
+</div>
+		</div>
+	</div>
+</div>	
+</section>	
+
+</body>
+</html>
